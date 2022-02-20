@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Diccionario</title>
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <header>Diccionario de Inglés</header>
+      <div class="search">
+        <input type="text" placeholder="Ingrese una palabra" required />
+        <i class="bx bx-search"></i>
+        <span id="clear" class="bx bx-x"></span>
+      </div>
+      <p class="info-text">
+        Ingresa una palabra y presiona <span>Enter</span> para obtener su
+        significado.
+      </p>
+      <ul>
+        <li class="word">
+          <div class="detalles">
+            <p>happy</p>
+            <span>adjetive /'happy</span>
+          </div>
+          <i class="bx bx-volume-full"></i>
+        </li>
+
+        <div class="contenido">
+          <li class="maening">
+            <div class="detalles">
+              <p>Meaning</p>
+              <span></span>
+            </div>
+          </li>
+          <li class="example">
+            <div class="detalles">
+              <p>Example</p>
+              <span></span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="detalles">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
